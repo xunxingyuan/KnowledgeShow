@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>主页</title>
+    <link  href="pageSrc/css/main.css" rel="stylesheet">
+    <link href="pageSrc/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="pageSrc/js/home.js"></script>
+</head>
+<body>
+<header>
+    <p class="logo">U Know</p>
+    <div class="nav">
+        <span>主页</span>
+        <span>登录</span>
+        <span>注册</span>
+    </div>
+</header>
+<section class="search">
+    <input type="text" />
+    <i class="fas fa-search"></i>
+</section>
+<section class="hot">
+    <p>
+        <i class="far fa-clock"></i>
+        <span>想知道怎样买到最放心的奶粉吗？让我告诉你</span>
+    </p>
+</section>
+
+<section class="content">
+    <div class="contentContain" id="content">
+
+    </div>
+    <div class="tools">
+        <p class="active">猜你喜欢</p>
+        <p>广场</p>
+        <p>我的关注</p>
+        <p>发现</p>
+    </div>
+</section>
+
+</body>
+<script id="question" type="text/tmpl">
+        <div class="box">
+            <div class="type">
+                <i class="fas fa-book-open"></i>
+            </div>
+            <div class="preview">
+                <p class="previewContent">${title}<br/>${preview}</p>
+                <div class="detail">
+                    <p >作者：<span class="author">${author}</span></p>
+                    <p >发表时间：<span class="time">${modify}</span></p>
+                    <p>价格：<span class="price">${price}K币</span></p>
+                </div>
+            </div>
+            <div class="buy">
+                <button>一探究竟</button>
+            </div>
+        </div>
+</script>
+</html>

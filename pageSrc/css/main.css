@@ -1,0 +1,37 @@
+html,body{
+    font-family:   Helvetica, Tahoma,"Microsoft YaHei", "微软雅黑",  "Helvetica Neue", "PingFang SC", "Hiragino Sans GB",  Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+p,span{
+    word-break: break-word;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 5rem;
+    padding: 0 8%;
+}
+header .nav{
+    line-height: 5rem;
+    font-size: 1.1rem;
+}
+header .nav span{
+    margin-left: 1rem;
+}
+header .logo{
+    font-size: 2rem;
+    margin: 0;
+    line-height: 5rem;
+}

@@ -1,0 +1,128 @@
+.search{
+    height: 3rem;
+    padding: 0 8%;
+    position: relative;
+}
+.search input{
+    height: 3rem;
+    width: 100%;
+    height: 3rem;
+    padding: 0 3rem 0 1rem;
+    border: none;
+    outline: none;
+}
+.search input:focus{
+    border: solid 1px #37A8E0;
+}
+
+.search .fas{
+    position: absolute;
+    right: 9%;
+    top: 1.1rem;
+}
+.hot{
+    padding: 0 8%;
+    height: 5rem;
+    line-height: 5rem;
+}
+.hot p{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+.content{
+    background: #fff;
+    padding: 2% 8%;
+    display: flex;
+}
+.content .contentContain{
+    flex: 1;
+    height: auto;
+    padding-right: 1rem;
+    border-right: solid 1px #ddd;
+}
+.content .contentContain .box{
+    height: 8rem;
+    margin-bottom: 1rem;
+    border: solid 1px #ddd;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 3px #999;
+}
+.content .contentContain .box .preview{
+    height: 100%;
+    flex: 1;
+}
+.content .contentContain .box .preview .previewContent{
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.content .contentContain .box .preview  .detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 0 2rem;
+    font-size: 0.9rem;
+    color: #999;
+}
+.content .contentContain .box .preview  .detail p{
+    margin-right: 2rem;
+}
+.content .contentContain .box .preview  .detail .author{
+    color: #37A8E0;
+}
+.content .contentContain .box .preview  .detail .time{
+    color: #37A8E0;
+}
+.content .contentContain .box .preview  .detail .price{
+    color: #37A8E0;
+}
+
+.content .contentContain .box .type{
+    height: 100%;
+    min-width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #37A8E0;
+    border-right: solid 1px #ddd;
+}
+.content .contentContain .box .buy{
+    height: 100%;
+    min-width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px #ddd;
+}
+.content .contentContain .box .buy button{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 36px;
+    background: #37A8E0;
+    color: #fff;
+    cursor: pointer;
+}
+.content  .tools{
+    width: 10rem;
+    height: 40rem;
+    padding-left: 2rem;
+}
+.content  .tools p{
+    text-align: left;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.content  .tools .active{
+    color: #666;
+}
